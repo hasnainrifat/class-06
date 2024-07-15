@@ -1,0 +1,55 @@
+.box{
+width: 250px;
+box-shadow: 7px 7px 30px #e7e7e7;
+}
+.box .top span{
+    background-color: #c50000;
+    color: #fffdfd;
+    display: inline-block;
+    padding: 4px 18px;
+     border-top-right-radius: 15px;
+     border-bottom-right-radius: 15px;
+     
+}
+.box image{
+text-align: center;
+}
+.box .contains h4 a{
+    font-size: 15px;
+    text-decoration: none;
+    font-family: "Open Sans", sans-serif ;
+    color: black;
+}
+.box .contains{
+    padding: 10px;
+}
+.box .contains h4 a:hover{
+    color: blueviolet;
+}
+.box .price .btn1{
+    color: red;
+    line-height: 22px;
+    font-size: 15px;
+    font-weight:900;
+}
+.box .price .btn2{
+    text-decoration: line-through;
+}
+.box button{
+    width: 100%;
+    display: inline-block;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.box .tk{
+    margin-bottom: 10px;
+    color: blue;
+    cursor: pointer;
+}
+.box .tk :hover{
+    background-color: #3749bb;
+    color: #fff;
+
+}
